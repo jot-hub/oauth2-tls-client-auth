@@ -1,0 +1,25 @@
+{
+  "name": "own-oidc-server",
+  "version": "1.0.0",
+  "description": "experimental server based on node-oidc-provider",
+  "main": "index.js",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "dotenv": "^16.0.0",
+    "helmet": "^5.0.2",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.4.0",
+    "oidc-provider": "^7.10.6",
+    "path": "^0.12.7",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

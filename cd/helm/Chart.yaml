@@ -1,0 +1,14 @@
+apiVersion: v1
+name: smallstep-oidc-clientcreds
+version: 0.0.1
+appVersion: 0.1.0
+description: mTLS with oidc client_credentials flow
+keywords:
+ - mTLS
+ - smallstep
+ - step
+ - step-ca
+ - tls
+ - x509
+ - oidc
+ - oAuth2.0

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smallstep-mtls-clientcreds-deployment
+  labels:
+    app: oidc-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: oidc-server
+  template:
+    metadata:
+      labels:
+        app: oidc-server
+    spec:
+      containers:
+      - name: smallstep-mtls-clientcreds
+        image: smallstep-mtls-clientcreds
+        ports:
+        - containerPort: 7979
